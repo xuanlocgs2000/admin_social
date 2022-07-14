@@ -1,27 +1,17 @@
 export const userInputs = [{
-        id: "username",
-        label: "Username",
+        id: "name",
+        label: "name",
         type: "text",
         placeholder: "Nguyen Loc",
     },
-    {
-        id: "displayName",
-        label: "Name and surname",
-        type: "text",
-        placeholder: "Nguyen Loc",
-    },
+
     {
         id: "email",
         label: "Email",
         type: "mail",
         placeholder: "xloc@gmail.com",
     },
-    {
-        id: "phone",
-        label: "Phone",
-        type: "text",
-        placeholder: "+1 234 567 89",
-    },
+
     {
         id: "password",
         label: "Password",
@@ -34,8 +24,8 @@ export const userInputs = [{
         placeholder: "Ha noi",
     },
     {
-        id: "country",
-        label: "Country",
+        id: "hometown",
+        label: "hometown",
         type: "text",
         placeholder: "VN",
 

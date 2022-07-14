@@ -1,22 +1,21 @@
 import "./list.scss"
 import Sidebar from "../../components/sidebar/Sidebar"
 import Navbar from "../../components/navbar/Navbar"
-import Datatable from "../../components/datatable/Datatable"
 import Datatablep from "../../components/datatable/Datatablep"
+// import Datatablep from "../../components/datatable/Datatablep"
 
 
-const List = () => {
+const Listp = () => {
   return (
     <div className="list">
       <Sidebar/>
       <div className="listContainer">
-        <Navbar/>
-        <Datatable/>
-        
+        <Navbar/>       
+        <Datatablep/>
 
       </div>
     </div>
   )
 }
 
-export default List
+export default Listp
